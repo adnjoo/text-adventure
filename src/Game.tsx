@@ -3,8 +3,9 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-import image0 from '../public/0.webp'; // Replace with the correct path
-import image1 from '../public/1.webp'; // Replace with the correct path
+import image0 from '../public/0.webp';
+import image1 from '../public/1.webp';
+import image3 from '../public/3.webp';
 
 const Game = () => {
   const [storyIndex, setStoryIndex] = useState(0);
@@ -35,6 +36,7 @@ const Game = () => {
     },
     {
       text: 'As you explore your powers, you find that you can control the shadows around you and sense emotions as vividly as colors. But with this power comes a feeling of isolation.',
+      image: image3,
       choices: [
         { text: 'Embrace the isolation and train alone', next: 6 },
         {
