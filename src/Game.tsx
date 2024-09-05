@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import image0 from '../public/0.webp';
 import image1 from '../public/1.webp';
 import image3 from '../public/3.webp';
+import image6 from '../public/6.webp';
 
 const Game = () => {
   const [storyIndex, setStoryIndex] = useState(0);
@@ -61,6 +62,7 @@ const Game = () => {
     },
     {
       text: 'The isolation becomes unbearable, and you feel the weight of your powers. But in the silence, you discover a deeper connection to the stars and your true purpose.',
+      image: image6,
       choices: [
         { text: 'Seek out others who might share your destiny', next: 10 },
         { text: 'Embrace the solitude and confront the comet alone', next: 11 },
