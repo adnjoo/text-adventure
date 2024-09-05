@@ -136,7 +136,7 @@ const Game = () => {
         <Image
           src={currentStory.image}
           alt='Story scene'
-          style={{ width: '12rem', marginBottom: '20px' }}
+          className='w-[12rem] h-[12rem] rounded-md my-4 sm:my-8 border-2 border-gray-600 sm:w-[18rem] sm:h-[18rem]'
         />
       )}
       <p>{currentStory.text}</p>
