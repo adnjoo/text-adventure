@@ -17,6 +17,8 @@ To get this project running locally, follow these steps:
 
 Assets are generated using [ChatGPT](https://chat.openai.com/)
 
+<img src="public/13.webp" alt="Sample Image" width="300">
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

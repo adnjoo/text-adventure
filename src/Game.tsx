@@ -7,6 +7,9 @@ import image0 from '../public/0.webp';
 import image1 from '../public/1.webp';
 import image3 from '../public/3.webp';
 import image6 from '../public/6.webp';
+import image10 from '../public/10.webp';
+import image11 from '../public/11.webp';
+import image13 from '../public/13.webp';
 
 const Game = () => {
   const [storyIndex, setStoryIndex] = useState(0);
@@ -91,6 +94,7 @@ const Game = () => {
     },
     {
       text: 'You find others who share your destiny. Together, you form a bond that strengthens your resolve. You are not alone in this battle.',
+      image: image10,
       choices: [
         { text: 'Prepare to face the coming war', next: 11 },
         { text: 'Seek out more allies', next: 12 },
@@ -98,6 +102,7 @@ const Game = () => {
     },
     {
       text: 'You confront the comet, and it reveals the truth: you are the key to a cosmic battle that will determine the fate of many worlds. The choice is yours—will you fight, or will you flee?',
+      image: image11,
       choices: [
         { text: 'Fight to protect the balance of the cosmos', next: 13 },
         { text: 'Flee and try to live a normal life', next: 2 },
@@ -112,6 +117,7 @@ const Game = () => {
     },
     {
       text: 'You embrace your role as a star-born warrior and lead the battle to protect the balance of the cosmos. The war is fierce, but with the help of your friends, you prevail.',
+      image: image13,
       choices: [],
     },
     {
